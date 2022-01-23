@@ -7,16 +7,299 @@
     <title>Assignment-3</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/de83109637.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
-        
+        <section >
+            <nav class="navbar navbar-expand-lg navbar-light py-5">
+                <div class="container">
+                    
+                    <div class="">
+                        <h1>Mak Convention Center</h1>
+                    </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ms-auto">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item ms-auto">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item ms-auto">
+                        <a class="nav-link" href="#">Subscribe</a>
+                      </li>   
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+        </section>
+        <!----------------- -----------carosal -------------------------------------------------->
+        <section class="mb-5 " >
+            <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+                <div class="carousel-indicators ">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white lh-lg">
+                      <h1>The perfect venue for your next event </h1>
+                      <p class="fs-4 ">Some representative t for the first slide. Lorem ipsuetur, adiit. Laboriosam, architecto. </p>
+                      <button class="px-5 py-2 rounded-3 mb-3 text-primary fw-bold" >Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item " data-bs-interval="10000">
+                    <img src="./images/banner1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white lh-lg">
+                      <h1>The perfect venue for your next event </h1>
+                      <p class="fs-4 ">Some representative t for the first slide. Lorem ipsuetur, adiit. Laboriosam, architecto. </p>
+                      <button class="px-5 py-2 rounded-3 mb-3 text-primary fw-bold" >Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item " data-bs-interval="10000">
+                    <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white lh-lg">
+                      <h1>The perfect venue for your next event </h1>
+                      <p class="fs-4 ">Some representative t for the first slide. Lorem ipsuetur, adiit. Laboriosam, architecto. </p>
+                      <button class="px-5 py-2 rounded-3 mb-3 text-primary fw-bold" >Book Now</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden text-white">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden text-white">Next</span>
+                </button>
+              </div>
+        </section>
+    
     </header>
     <main>
+        <section class="container py-5">
+            <div class="row g-5">
+                <div class="col-6">
+                    <div class="d-flex justify-content-center align-item-center">
+                        <img src="./images/wedding.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6  d-flex justify-content-center align-items-center">
+                    <div class="lh-lg">
+                        <h1>Every moment is precious</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis temporibus reprehenderit eos adipisci iusto necessitatibus consectetur voluptatum facilis provident autem.</p>
+                   
+                        <button class="px-5 py-2 rounded-3 d-flex justify-content-start bg-primary text-white "> Explore our album<i class="fas fa-arrow-right ps-3 py-2 rounded-3 d-flex justify-content-start"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-------------- our package ----------------------------->
+        <section class="py-5 container ">
+            <h1 class="text-center pb-3 mb-5">Our Package</h1>
+            <div class="row ">
+                <div class="col-3">
+                    <div class="pb-5">
+                        <div>
+                            <div class="rounded-3 shadow p-5">
+                                <h1>$300</h1>
+                                <h2>Business fair</h2>
+                                <p>For most businesses event like book fair, craft fair.</p>
+                                
+                                <p><i class="far fa-check-circle"></i> limited space access</p>  
+                                <p><i class="far fa-check-circle"></i> Security facility</p>  
+                                <p><i class="far fa-check-circle"></i> event support</p>  
+                                <p><i class="far fa-check-circle"></i> Decoration design</p>  
+                                <p><i class="far fa-check-circle"></i> Per day bill</p>  
+                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0 ">Choose plan</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="pb-5">
+                        <div>
+                            <div class="rounded-3 shadow p-5">
+                                <h1>$300</h1>
+                                <h2>Business fair</h2>
+                                <p>For most businesses event like book fair, craft fair.</p>
+                                
+                                <p><i class="far fa-check-circle"></i> limited space access</p>  
+                                <p><i class="far fa-check-circle"></i> Security facility</p>  
+                                <p><i class="far fa-check-circle"></i> event support</p>  
+                                <p><i class="far fa-check-circle"></i> Decoration design</p>  
+                                <p><i class="far fa-check-circle"></i> Per day bill</p>  
+                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0">Choose plan</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="pb-5">
+                        <div>
+                            <div class="rounded-3 shadow p-5">
+                                <h1>$300</h1>
+                                <h2>Business fair</h2>
+                                <p>For most businesses event like book fair, craft fair.</p>
+                                
+                                <p><i class="far fa-check-circle"></i> limited space access</p>  
+                                <p><i class="far fa-check-circle"></i> Security facility</p>  
+                                <p><i class="far fa-check-circle"></i> event support</p>  
+                                <p><i class="far fa-check-circle"></i> Decoration design</p>  
+                                <p><i class="far fa-check-circle"></i> Per day bill</p>  
+                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0">Choose plan</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="pb-5">
+                        <div>
+                            <div class="rounded-3 shadow p-5">
+                                <h1>$300</h1>
+                                <h2>Business fair</h2>
+                                <p>For most businesses event like book fair, craft fair.</p>
+                                
+                                <p><i class="far fa-check-circle"></i> limited space access</p>  
+                                <p><i class="far fa-check-circle"></i> Security facility</p>  
+                                <p><i class="far fa-check-circle"></i> event support</p>  
+                                <p><i class="far fa-check-circle"></i> Decoration design</p>  
+                                <p><i class="far fa-check-circle"></i> Per day bill</p>  
+                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0">Choose plan</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-------------------------- happy client days----------------- -->
+        <section class="container py-5">
+            <h1 class="text-center py-5 mb-5">Happy Clients says</h1>
+            <div class="row">
+                <div class="col-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center shadow-lg rounded-3  p-5   lh-lg">
+                        <p>Lorem ipsum dolor sit amet consectng elit.ue ea nesciunt tenetur, res. Lor sit amet consecte elit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
+                        <img src="./images/person 2.png" alt="">
+                        <h4>REgina Miles</h4>
+                        <p>Banker</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center shadow-lg rounded-3  p-5   lh-lg">
+                        <p>Lorem ipsum dolor sit amet conicing elit. Quibusdam cumque ea nesciunt tenetur, res.  sit amet cipisicing elit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
+                        <img src="./images/person 3.png" alt="">
+                        <h4>REgina Miles</h4>
+                        <p>Banker</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center shadow-lg rounded-3  p-5   lh-lg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque ea nesciunt tenit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
+                        <img src="./images/person 1.png" alt="">
+                        <h4>REgina Miles</h4>
+                        <p>Banker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------ Frequently Asked Questions----------- -->
+        <section class="py-5 container">
+            <h1 class="text-center mb-5">Frequently Asked Questions</h1>
+            <div>
+
+                <div class="row py-5">
+                    <div class="col-7">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  What’s the difference between event design and event planning? 
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How early do we need to start planning an event
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do you keep budgets on track?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/people.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </main>
-    <footer>
+    <footer class="bg-dark py-5">
+        <div class="container">
+           <div class="row text-white ">
+                <div class=" col-6 d-flex flex-column justify-content-center align-item-center mt-3  ">
+                    <p>&copy;2022 bike. All rights reserved</p>
+                </div>
+                <div class="col-6 d-flex flex-column align-items-end ">
+                    <div class="d-flex flex-column  ">
+                        <h2 class="fs-6">Get the app</h2>
+                        <a href="https://play.google.com/store" target="blank"><img width=135 class="my-2" src="./icons/App Store Badge.png"  alt=""></a>
+                        <a href="https://www.apple.com/store" target="blank"><img width=135 src="./icons/Google Play Badge.png" src="https://support.apple.com/downloads" alt=""></a>
+                    </div>
+                </div>
+           </div>
 
+        </div>
 
     </footer>
 
