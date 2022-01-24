@@ -12,23 +12,23 @@
 </head>
 <body>
     <header>
-        <section >
-            <nav class="navbar navbar-expand-lg navbar-light py-5">
+        <section class="sticky-top" >
+            <nav class="navbar navbar-expand-lg navbar-light py-5 sticky-top">
                 <div class="container">
                     
                     <div class="">
-                        <h1>Mak Convention Center</h1>
+                        <h1>Mak's Convention Center</h1>
                     </div>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 fw-bold">
                       <li class="nav-item ms-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item ms-auto">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link " href="#">About Us</a>
                       </li>
                       <li class="nav-item ms-auto">
                         <a class="nav-link" href="#">Contact</a>
@@ -53,7 +53,7 @@
                 <div class="carousel-inner ">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img src="./images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-white lh-lg">
+                    <div class="carousel-caption  d-md-block text-white lh-lg ">
                       <h1>The perfect venue for your next event </h1>
                       <p class="fs-4 ">Some representative t for the first slide. Lorem ipsuetur, adiit. Laboriosam, architecto. </p>
                       <button class="px-5 py-2 rounded-3 mb-3 text-primary fw-bold" >Book Now</button>
@@ -61,7 +61,7 @@
                   </div>
                   <div class="carousel-item " data-bs-interval="10000">
                     <img src="./images/banner1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-white lh-lg">
+                    <div class="carousel-caption  d-md-block text-white lh-lg">
                       <h1>The perfect venue for your next event </h1>
                       <p class="fs-4 ">Some representative t for the first slide. Lorem ipsuetur, adiit. Laboriosam, architecto. </p>
                       <button class="px-5 py-2 rounded-3 mb-3 text-primary fw-bold" >Book Now</button>
@@ -69,7 +69,7 @@
                   </div>
                   <div class="carousel-item " data-bs-interval="10000">
                     <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-white lh-lg">
+                    <div class="carousel-caption d-md-block text-white lh-lg">
                       <h1>The perfect venue for your next event </h1>
                       <p class="fs-4 ">Some representative t for the first slide. Lorem ipsuetur, adiit. Laboriosam, architecto. </p>
                       <button class="px-5 py-2 rounded-3 mb-3 text-primary fw-bold" >Book Now</button>
@@ -89,19 +89,30 @@
     
     </header>
     <main>
+      <!-- ----------------Every monent is precious-------------------- -->
         <section class="container py-5">
             <div class="row g-5">
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <div class="d-flex justify-content-center align-item-center">
                         <img src="./images/wedding.png" alt="">
                     </div>
                 </div>
-                <div class="col-6  d-flex justify-content-center align-items-center">
+                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center" 
+                >
                     <div class="lh-lg">
                         <h1>Every moment is precious</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis temporibus reprehenderit eos adipisci iusto necessitatibus consectetur voluptatum facilis provident autem.</p>
+                          <div class="toast show align-items-center end-0 ms-auto  " role="alert"     aria-live="assertive" aria-atomic="true"  >
+                            <div class="d-flex">
+                              <div class="toast-body border-left ">
+                                <i class="fas fa-gift p-2 fs-5 text-primary "></i>
+                                20% off on next booking
+                              </div>
+                              <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                          </div>
+                        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis temporibus reprehenderit eos adipisci iusto necessitatibus consectetur voluptatum facilis provident autem.</p>
                    
-                        <button class="px-5 py-2 rounded-3 d-flex justify-content-start bg-primary text-white "> Explore our album<i class="fas fa-arrow-right ps-3 py-2 rounded-3 d-flex justify-content-start"></i></button>
+                        <button class="px-5 py-2 rounded-3 d-flex justify-content-start bg-primary text-white "> Explore our album<i class="fas fa-arrow-right ps-3 py-2 mt-1 rounded-3 d-flex justify-content-start"></i></button>
                     </div>
                 </div>
             </div>
@@ -111,21 +122,21 @@
         <!-------------- our package ----------------------------->
         <section class="py-5 container ">
             <h1 class="text-center pb-3 mb-5">Our Package</h1>
-            <div class="row ">
-                <div class="col-3">
+            <div class="row gx-5">
+                <div class="col-md-3 col-12">
                     <div class="pb-5">
                         <div>
-                            <div class="rounded-3 shadow p-5">
+                            <div class="rounded-3 shadow p-4">
                                 <h1>$300</h1>
                                 <h2>Business fair</h2>
                                 <p>For most businesses event like book fair, craft fair.</p>
                                 
-                                <p><i class="far fa-check-circle"></i> limited space access</p>  
+                                <p><i class="far fa-check-circle "></i> limited space access</p>  
                                 <p><i class="far fa-check-circle"></i> Security facility</p>  
                                 <p><i class="far fa-check-circle"></i> event support</p>  
                                 <p><i class="far fa-check-circle"></i> Decoration design</p>  
                                 <p><i class="far fa-check-circle"></i> Per day bill</p>  
-                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0 ">Choose plan</button>
+                                <button class="rounded-pill px-5 py-2 mt-4  text-primary fw-bold border-0 ">Choose plan</button>
 
                             </div>
 
@@ -133,12 +144,12 @@
                     </div>
 
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-12">
                     <div class="pb-5">
                         <div>
-                            <div class="rounded-3 shadow p-5">
-                                <h1>$300</h1>
-                                <h2>Business fair</h2>
+                            <div class="rounded-3 shadow p-4">
+                                <h1>$500</h1>
+                                <h2>Wedding basic</h2>
                                 <p>For most businesses event like book fair, craft fair.</p>
                                 
                                 <p><i class="far fa-check-circle"></i> limited space access</p>  
@@ -146,7 +157,7 @@
                                 <p><i class="far fa-check-circle"></i> event support</p>  
                                 <p><i class="far fa-check-circle"></i> Decoration design</p>  
                                 <p><i class="far fa-check-circle"></i> Per day bill</p>  
-                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0">Choose plan</button>
+                                <button class="rounded-pill px-5 py-2 mt-4  text-primary fw-bold border-0">Choose plan</button>
 
                             </div>
 
@@ -154,12 +165,15 @@
                     </div>
 
                 </div>
-                <div class="col-3">
-                    <div class="pb-5">
-                        <div>
-                            <div class="rounded-3 shadow p-5">
-                                <h1>$300</h1>
-                                <h2>Business fair</h2>
+                
+                <div class="col-md-3 col-12">
+                    <div class="pb-5 ">
+                        <div class="bg-primary text-white rounded-3">
+                            <div class="rounded-3 shadow p-4 " style="position: relative;">
+                              <span class="badge badge-pill badge-danger bg-danger position-absolute  top-0 end-0 me-4 p-2 fs-6 h-550 "  >Hot</span>
+                               
+                                <h1>$800</h1>
+                                <h2  >Wedding plus</h2>
                                 <p>For most businesses event like book fair, craft fair.</p>
                                 
                                 <p><i class="far fa-check-circle"></i> limited space access</p>  
@@ -167,7 +181,7 @@
                                 <p><i class="far fa-check-circle"></i> event support</p>  
                                 <p><i class="far fa-check-circle"></i> Decoration design</p>  
                                 <p><i class="far fa-check-circle"></i> Per day bill</p>  
-                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0">Choose plan</button>
+                                <button class="rounded-pill px-5 py-2 mt-4 text-primary fw-bold border-0">Choose plan</button>
 
                             </div>
 
@@ -175,10 +189,10 @@
                     </div>
 
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-12">
                     <div class="pb-5">
                         <div>
-                            <div class="rounded-3 shadow p-5">
+                            <div class="rounded-3 shadow p-4">
                                 <h1>$300</h1>
                                 <h2>Business fair</h2>
                                 <p>For most businesses event like book fair, craft fair.</p>
@@ -188,7 +202,7 @@
                                 <p><i class="far fa-check-circle"></i> event support</p>  
                                 <p><i class="far fa-check-circle"></i> Decoration design</p>  
                                 <p><i class="far fa-check-circle"></i> Per day bill</p>  
-                                <button class="rounded-pill px-5 py-2 mt-4 d-flex justify-content-start text-primary fw-bold border-0">Choose plan</button>
+                                <button class="rounded-pill px-5 py-2 mt-4  text-primary fw-bold border-0">Choose plan</button>
 
                             </div>
 
@@ -202,28 +216,28 @@
         <!-------------------------- happy client days----------------- -->
         <section class="container py-5">
             <h1 class="text-center py-5 mb-5">Happy Clients says</h1>
-            <div class="row">
-                <div class="col-4">
+            <div class="row gx-5">
+                <div class="col-md-4 col-12">
                     <div class="d-flex flex-column justify-content-center align-items-center shadow-lg rounded-3  p-5   lh-lg">
                         <p>Lorem ipsum dolor sit amet consectng elit.ue ea nesciunt tenetur, res. Lor sit amet consecte elit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
-                        <img src="./images/person 2.png" alt="">
+                        <img class="my-2" src="./images/person 2.png" alt="">
                         <h4>REgina Miles</h4>
                         <p>Banker</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                     <div class="d-flex flex-column justify-content-center align-items-center shadow-lg rounded-3  p-5   lh-lg">
-                        <p>Lorem ipsum dolor sit amet conicing elit. Quibusdam cumque ea nesciunt tenetur, res.  sit amet cipisicing elit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
-                        <img src="./images/person 3.png" alt="">
-                        <h4>REgina Miles</h4>
+                        <p>Lorem ipsum dolor sit amet conicing elit. Quibusdam cumque ea nesciunt tenetur, res.  sit amit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
+                        <img class="my-2"src="./images/person 3.png" alt="">
+                        <h4>Jone Drake</h4>
                         <p>Banker</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                     <div class="d-flex flex-column justify-content-center align-items-center shadow-lg rounded-3  p-5   lh-lg">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque ea nesciunt tenit. Neus, re voluptatum perspiciatm eum dolorum suscipit? </p>
-                        <img src="./images/person 1.png" alt="">
-                        <h4>REgina Miles</h4>
+                        <img class="my-2" src="./images/person 1.png" alt="">
+                        <h4>Cret Yater</h4>
                         <p>Banker</p>
                     </div>
                 </div>
@@ -235,12 +249,12 @@
             <div>
 
                 <div class="row py-5">
-                    <div class="col-7">
+                    <div class="col-md-7 col-12">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  What’s the difference between event design and event planning? 
+                                  Whats the difference between event design and event planning? 
                                 </button>
                               </h2>
                               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -275,7 +289,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-md-5 col-12">
                         <img src="./images/people.png" alt="">
                     </div>
                 </div>
@@ -287,10 +301,10 @@
     <footer class="bg-dark py-5">
         <div class="container">
            <div class="row text-white ">
-                <div class=" col-6 d-flex flex-column justify-content-center align-item-center mt-3  ">
+                <div class=" col-md-6 col-12 d-flex flex-column justify-content-center align-item-center mt-3  ">
                     <p>&copy;2022 bike. All rights reserved</p>
                 </div>
-                <div class="col-6 d-flex flex-column align-items-end ">
+                <div class="col-md-6 col-12 d-flex flex-column align-items-end ">
                     <div class="d-flex flex-column  ">
                         <h2 class="fs-6">Get the app</h2>
                         <a href="https://play.google.com/store" target="blank"><img width=135 class="my-2" src="./icons/App Store Badge.png"  alt=""></a>
